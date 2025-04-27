@@ -18,23 +18,31 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()"
-     onmouseenter="entrar()">
+    <div id="area">
         interaga... 
     </div>
 
     <script>
-        function clicar() {
-            var area = document.querySelector('div#area')
-            area.innerText = 'clicou!'
-            area.style.background = 'blue'
-        }
+        var evento = document.querySelector('div#area')
+        evento.addEventListener ('mouseenter', entrar)
+        evento.addEventListener ('click', clicar)
+        evento.addEventListener ('mouseout', sair)
 
-        function entrar() {
-            var mouse_entrar = document.querySelector('div#area')
-            mouse_entrar.innerText = 'pode clica man'
-            mouse_entrar.style.background = 'red'
-        }
+    function entrar() {
+        evento.innerText = 'vai clicar?'
+        evento.style.background = 'blue'
+    }
+
+    function clicar() {
+        evento.innerText = 'clicou!'
+        evento.style.background = 'black';
+    }
+
+    function sair() {
+        evento.innerText = 'não vai clicar?'
+        evento.style.background = 'green'
+    }
+
     </script>
 </body>
 </html>

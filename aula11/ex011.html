@@ -3,20 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>location</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        video {
+            display: block;
+            margin: 20px auto;
+        }
+
+        div {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>vericador de localização</h1>
+    <h1>
+        Seus país tem este conteudo disponivel?
+    </h1>
 
-    insira o pais onde você mora
-    <input type="text" id="txt">
-    <input type="button" id="button" value="verificar">
+    <input type="text" id="pais" required>
+    <input type="button" value="Verificar" id="botao">
+
+    <div id="area"></div>
 
 <script>
-addEventListener ('click, verificar')
-    function verificar() {
-        var pais 
+    function verificar() { 
+
+var pais = document.querySelector('input#pais').value
+var area = document.querySelector('div#area')   
+
+    if (pais !='Brasil') {
+    area.innerHTML = `no país ${pais} não é possivel ver este conteudo`
+    
+    } else {
+    area.innerHTML = `o conteudo está disponivel na sua localização!`
+
+    var video = document.createElement('video')
+    video.src = 'sweet mountain.mp4'
+    video.controls = true
+    video.width = 500
+
+    area.appendChild(video)
     }
+}
+var botao = document.querySelector('input#botao')
+botao.addEventListener('click', verificar)
+
 </script>
 </body>
 </html>

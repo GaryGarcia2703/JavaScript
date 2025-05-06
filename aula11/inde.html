@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Inserir vídeo com JavaScript</title>
+</head>
+<body>
+  <h1>Vídeo gerado com JavaScript</h1>
+  <button id="mostrar">Mostrar vídeo</button>
+  <div id="area"></div>
+
+  <script>
+    document.getElementById('mostrar').addEventListener('click', function() {
+      var area = document.getElementById('area')
+
+      // Criar o elemento <video>
+      var video = document.createElement('video')
+      video.src = 'sweet mountain.mp4' // Coloque o caminho do seu vídeo aqui
+      video.controls = true
+      video.width = 400
+
+      // Adiciona o vídeo na div
+      area.appendChild(video)
+    })
+  </script>
+</body>
+</html>

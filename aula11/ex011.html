@@ -27,15 +27,25 @@
         Seus país tem este conteudo disponivel?
     </h1>
 
-    <input type="text" id="pais" required>
-    <input type="button" value="Verificar" id="botao">
+    <form>
+        <label for="opcoes"></label>
+        <select name="opcoes" id="opcoes">
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Espanha">Espanha</option>
+        </select>
+            
+        <input type="button" value="Verificar" id="botao">
+    </form>
 
     <div id="area"></div>
 
 <script>
     function verificar() { 
 
-var pais = document.querySelector('input#pais').value
+var pais = document.querySelector('select#opcoes').value
 var area = document.querySelector('div#area')   
 
     if (pais !='Brasil') {

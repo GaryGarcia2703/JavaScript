@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste de Imagem</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body onload="carregar()">
+    <div id="msg">Carregando...</div>
+    <img id="imagem" src="" alt="Imagem do dia">
+    
+    <script>
+        function carregar () {
+            var msg = document.querySelector('div#msg')
+            var img = document.querySelector('img#imagem')
+            var data = new Date()
+            //var hora = data.getHours()
+             var hora = 15  // use isso para testar horários fixos
+
+            msg.innerHTML = `Agora são ${hora} horas`
+
+            if (hora >= 0 && hora < 12) {
+                img.src = 'imagens/dia.jpg'
+                document.body.style.background = '#e2cd9f'
+            } else if (hora >= 12 && hora < 18) {
+                img.src = 'imagens/tarde.jpg'
+                document.body.style.background = '#b9846f'
+            } else {
+                img.src = 'imagens/noite.jpg'
+                document.body.style.background = '#515154'
+            }
+        }
+    </script>
+</body>
+</html>

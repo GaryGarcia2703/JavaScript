@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #D2D4C8;
+        }
+        header {
+            width: 68%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #9DA9A0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        main {
+            width: 68%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #93B7BE ;
+            border-radius: 10px;
+        }
+
+        input.notas {
+            width: 100px;
+        }
+
+        button {
+            font-size: 16px;
+            width: 60%;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo!</h1>
+    </header>
+
+    <main>
+        <h2>Porfavor informe o nome do aluno!</h2>
+        <label for="nome">Nome do aluno:</label>
+        <input type="text" id="nome">
+        <p>
+            <label for="n1">Primeira nota</label>
+            <input class="notas" type="number" id="n1" min="1" max="10">
+        </p>
+        <p>
+            <label for="n2">Segunda nota</label>
+            <input class="notas" type="number" id="n2" min="1" max="10">
+        </p>
+        <p>
+            <label for="n3">Terceira nota</label>
+            <input class="notas" type="number" id="n3" min="1" max="10">
+        </p>
+
+        <button id="button">Calcular media</button>
+
+        <div id="resultado">aqui vai o resultado do aluno</div>
+
+        <div id="img">
+            <img src="aprovado.png" alt="">
+        </div>
+    </main>
+
+    <script src="scriptoxd.js"></script>
+</body>
+</html>

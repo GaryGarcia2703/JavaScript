@@ -8,7 +8,7 @@ header {
     text-align: center;
 }
 
-div#area1 {
+div {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -17,7 +17,7 @@ div#area1 {
     box-shadow: rgba(0, 0, 0, 0.459) 3px 3px 8px;
 }
 
-div#area2 {
+div#res {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -27,7 +27,7 @@ div#area2 {
 }
 
 img {
-    border-radius: 1000px;
+    border-radius: 10f00px;
 }
 
 footer {

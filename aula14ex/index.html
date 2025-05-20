@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horario</title>
+    <title>verificador de idade</title>
     <link rel="stylesheet" href="stylo.css">
 </head>
 <body>
 
     <header>
-        <h1>Titulo</h1>
+        <h1>verificador de idade</h1>
     </header>
 
     <main>
-        <div id="area1">se vienen cositas...</div>
-
-        <div id="area2">olá</div>
-
         <div>
-            <img src="img/homen jovem.png" alt="">
+            <p> Ano de nascimento
+                <input type="number" name="txtano" id="txtano">
+            </p>
+
+            <p> Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="verificar" id="verificar">
+            </p>
+        </div>
+
+        <div id="res">
+            preencha os dados acima para ver o resultado
         </div>
     </main>
 

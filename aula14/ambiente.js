@@ -1,18 +1,6 @@
-var c = 1
-do {
-    console.log(`passo ${c}`)
-    c++ // c = c +1
-} while (c <= 8)
+console.log('vai começar')
 
-
-
-
-/*
-console.log('olá lil blud')
-console.log('olá lil blud')
-console.log('olá lil blud')
-console.log('olá lil blud')
-console.log('olá lil blud')
-console.log('olá lil blud')
-console.log('olá lil blud')
-*/
+for (var c = 1; c <= 4; c++) {
+    console.log(c)
+}
+console.log('FIM')

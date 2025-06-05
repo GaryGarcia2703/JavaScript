@@ -1,12 +1,18 @@
-var btn = document.querySelector('button#btn')
-let ini = Number(document.querySelector('input#ini'))
-let fim = Number(document.querySelector('Input#fom'))
-let passo = Number(document.querySelector('input#passo'))
-
 function contar() {
-    if (ini.value.lenght == 0 || fim.value.lenght == 0 || passo.value.lenght == 0) {
-        window.alert('tudo ok')
+    var btn = document.querySelector('button#btn');
+    let iniInput = document.querySelector('input#ini');
+    let fimInput = document.querySelector('input#fim');
+    let passoInput = document.querySelector('input#passo');
+
+    if (iniInput.value.length === 0 || fimInput.value.length === 0 || passoInput.value.length === 0) {
+        window.alert('[ERRO] Dados não informados');
+    } else {
+        let ini = Number(iniInput.value);
+        let fim = Number(fimInput.value);
+        let passo = Number(passoInput.value);
+        alert('Tudo ok');
+        // Aqui você pode colocar o código para fazer a contagem
     }
 
-
 }
+btn.addEventListener('click' , contar)

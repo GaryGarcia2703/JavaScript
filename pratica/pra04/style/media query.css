@@ -1,0 +1,35 @@
+@media screen and (max-width: 600.98px) {
+
+    body {
+        background-image: url(../img/Home\ screen\ picture.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    main {
+    max-width: 60vw;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 767.98px) {
+  /*tablet*/
+  body {
+    background-image: url(../img/agua.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+  }
+   p{
+    color: blue;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /*desktop*/
+}

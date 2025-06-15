@@ -3,20 +3,19 @@ body {
     background-color: blue ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/wallpaper1.2.jpeg);
+    background-image: url(../img/wii\ sports\ resort.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top top;
+    background-position: center center;
     
 }
 main {
     color: white;
     box-shadow: #E6E6FA   7px 6px 20px;
-    background-color: #40e0d0af  ;
+    background-color: #40e0d0ab  ;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
-    
     max-width: 70vw;
 }
 
@@ -34,14 +33,18 @@ input {
 }
 
 button {
-    font-size: 15px;
     width: 55vw;
-    border-radius: 8px;
-    background-color: #7CFC00 ;
-    padding: 10px;
-    margin: 10px;
+    padding: 12px 25px;
+    background-color: #2fd80d ; 
+    color: white;
     border: none;
-    box-shadow: #265f8e 7px 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    transform: translateY(0);
 }
 
 div{
@@ -51,8 +54,9 @@ div{
     padding: 6px;
     border: none;
     box-shadow: #0F8FFf 7px 6px 12px;
-    background-color: #F8F8FF   ;
+    background-color: #F8F8FF;
     color: black;
+    height: 30px;
 }
 
 

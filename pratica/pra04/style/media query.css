@@ -1,6 +1,8 @@
-@media screen and (max-width: 600.98px) {
+
+/*smartphone*/
+@media screen and (max-width: 600.98px) { 
     body {
-        background-image: url(../img/Home\ screen\ picturep.jpg);
+        background-image: url(../img/playa.png);
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -15,13 +17,13 @@
 
 }
 
-
+/*tablet*/
 @media screen and (min-width: 601px) and (max-width: 767.98px) {
-  /*tablet*/
+  
   body {
-    background-image: url(../img/agua.jpeg);
+    background-image: url(../img/Frutiger\ Aero\ Images\ Wallpaper!.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     background-position: top center;
    
   }
@@ -38,6 +40,16 @@
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px)  {
   /*desktop*/
+
+  button {
+    margin-bottom: 18px;
+
+  }
+
+  div#res {
+    margin: auto;
+    width: 55vw;
+  }
 }

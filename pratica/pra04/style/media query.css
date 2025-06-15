@@ -1,9 +1,8 @@
 @media screen and (max-width: 600.98px) {
-
     body {
-        background-image: url(../img/p.jpeg);
+        background-image: url(../img/Home\ screen\ picturep.jpg);
         background-position: center center;
-        background-size: auto;
+        background-size: cover;
         background-attachment: fixed;
     }
     main {
@@ -23,12 +22,21 @@
     background-image: url(../img/agua.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center left;
+    background-position: top center;
+   
   }
-   p{
-    color: blue;
+
+  button {
+    margin-bottom: 17px;
+  }
+
+  div {
+    margin: auto;
+    width: 55vw;
   }
 }
+
+
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   /*desktop*/

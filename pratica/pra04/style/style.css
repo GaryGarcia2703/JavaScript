@@ -3,16 +3,16 @@ body {
     background-color: blue ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/wallpaper1.jpeg);
-    background-size: auto;
+    background-image: url(../img/wallpaper1.2.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top top;
     
 }
 main {
     color: white;
     box-shadow: #E6E6FA   7px 6px 20px;
-    background-color: #40E0D0  ;
+    background-color: #40e0d0af  ;
     border-radius: 10px;
     margin: auto;
     padding: 10px;

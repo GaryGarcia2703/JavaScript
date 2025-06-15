@@ -1,9 +1,9 @@
 @media screen and (max-width: 600.98px) {
 
     body {
-        background-image: url(../img/Home\ screen\ picture.jpg);
+        background-image: url(../img/p.jpeg);
         background-position: center center;
-        background-size: cover;
+        background-size: auto;
         background-attachment: fixed;
     }
     main {

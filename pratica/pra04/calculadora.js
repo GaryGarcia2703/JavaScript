@@ -80,7 +80,7 @@ function btnLimparHover() {
 }
 
 function btnLimparOut() {
-    btnlimpar.style.background = '#007bff';
+    btnlimpar.style.background = '';
     btnlimpar.style.boxShadow = '';
     btnlimpar.style.transform = '';
 }

@@ -1,6 +1,11 @@
-let num = [1,2,3,4,5,6,8,9,0]
+let num = [1,8,2,4,6]
 num.push(20)
-num.sort()
+num.sort((a, b) => a - b);
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`O primeiro valor do vetor é ${num[0]}`)
+let pos = num.indexOf(30)
+console.log(`o valor 8 esta na posição ${pos}`)
+ if (pos == -1) {
+    console.log('o valor não foi encontrado')
+ }

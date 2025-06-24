@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="img/jpg_3-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Manufatura de Lojas</title>
+</head>
+<body>
+
+  <main>
+      <h1>Calculadora de Manufatura Anual</h1>
+
+      <form id="formularioLoja">
+
+        <strong><label for="nomeLoja">Nome da Loja:</label></strong>
+        <input type="text" id="nomeLoja" required>
+
+        <div id="meses">
+          <p>Informe o valor da manufatura por mês:</p>
+          <input type="number" placeholder="Mês 1" class="mes">
+          <input type="number" placeholder="Mês 2" class="mes">
+          <input type="number" placeholder="Mês 3" class="mes">
+          <input type="number" placeholder="Mês 4" class="mes">
+          <input type="number" placeholder="Mês 5" class="mes">
+          <input type="number" placeholder="Mês 6" class="mes">
+          <input type="number" placeholder="Mês 7" class="mes">
+          <input type="number" placeholder="Mês 8" class="mes">
+          <input type="number" placeholder="Mês 9" class="mes">
+          <input type="number" placeholder="Mês 10" class="mes">
+          <input type="number" placeholder="Mês 11" class="mes">
+          <input type="number" placeholder="Mês 12" class="mes">
+        </div>
+
+
+        <p>
+            <button id="cal" type="button" onclick="calcular()">Calcular</button>
+        </p>
+
+        <p>
+            <button id="addloja" type="button" onclick="adicionarLoja()">Adicionar Loja</button>
+        </p>
+
+        
+
+      </form>
+      <div class="resultado" id="resultado"></div>
+  </main>
+
+  <script src="yahmean.js"></script>
+
+</body>
+</html>

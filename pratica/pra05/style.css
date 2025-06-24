@@ -57,3 +57,15 @@ button:hover {
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
+
+div#resultado {
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+    text-align: center;
+    height: 80px;
+    width: 600px;
+    color: black;
+    background-color: #BFA473;
+    padding: 10px;
+}

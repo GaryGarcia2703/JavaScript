@@ -4,7 +4,7 @@ num.sort((a, b) => a - b);
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`O primeiro valor do vetor é ${num[0]}`)
-let pos = num.indexOf(30)
+let pos = num.indexOf(6)
 console.log(`o valor 8 esta na posição ${pos}`)
  if (pos == -1) {
     console.log('o valor não foi encontrado')

@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.imgur.com/LkFwL4l.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    line-height: 2.6;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 60vw;
+    padding: 30px;
+    background-color: #0aa0c5c0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 30px;
+    color: #0482a1;
+}
+
+.question {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #2bff00;
+}
+
+.answers button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #0482a1;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.answers button:hover {
+    background-color: #CCE6F4;
+    box-shadow: 0 0 10px rgba(72, 209, 124, 0.6);
+    color: black;
+}
+
+#result {
+    font-size: 24px;
+    color: #00ffe5;
+    margin-top: 30px;
+}
+
+footer {
+    font-size: 18px;
+    color: #00ffe5;
+    margin-top: 40px;
+}

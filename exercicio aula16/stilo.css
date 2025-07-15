@@ -4,6 +4,11 @@ body {
     background-color: #D0D1AC;
 }
 
+main {
+    display: grid; 
+    place-items: center; /
+}
+
 h1, h2 {
     color: white;
 }
@@ -29,6 +34,7 @@ select {
 }
 
 div {
+    width: 65vw;
     background-color: #8F8B92;
     border-radius: 10px;
 }
